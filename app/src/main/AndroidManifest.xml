@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xdagee.cm12bootanimation_template">
+
+    <uses-feature android:required="true" android:name="org.cyanogenmod.theme" />
+
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="21" />
+
+    <meta-data android:name="org.cyanogenmod.theme.name" android:value="@string/theme_name"/>
+    <meta-data android:name="org.cyanogenmod.theme.author" android:value="@string/theme_author" />
+    <meta-data android:name="org.cyanogenmod.theme.email" android:value="@string/theme_email" />
+
+    <application android:allowBackup="false" android:label="@string/theme_name"
+        android:icon="@mipmap/ic_launcher" android:supportsRtl="true"
+        android:theme="@style/AppTheme" android:hasCode="false">
+
+    </application>
+
+</manifest>
